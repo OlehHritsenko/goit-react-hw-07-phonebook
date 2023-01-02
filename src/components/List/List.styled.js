@@ -1,7 +1,15 @@
 import styled from 'styled-components';
 
 const List = styled.ul`
-  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
 `;
 
-export { List };
+const Notify = styled.p`
+  margin-bottom: 15px;
+  font-weight: 500;
+`;
+
+export { List, Notify };
